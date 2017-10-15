@@ -12,11 +12,11 @@
 	*	group：生成option的数据（数组格式）
 	*	multiple：是否多选（布尔值，默认false）
 	*	notNull：是否为空（布尔值，默认false）
-	*	checked：初始化被项目的选项（数组格式）
+	*	checked：初始化被选中的选项（数组格式）
 	*	disabled：被禁用的选项（数组格式）
 	*	onChange：发生改变时触发的回掉（函数）
 *	方法
-	*	getCheck：获取被选中项的值和下表 json格式 value表示被选中项的值 index表示被选中项的下表 没有则为null
+	*	getCheck：获取被选中项的值和下标（json格式 value表示被选中项的值 index表示被选中项的下标 没有则为null）
 	*	getBool：获取所有数据对应的布尔值 被选中为 true 否则为false
 *	示例<br>
 ```
